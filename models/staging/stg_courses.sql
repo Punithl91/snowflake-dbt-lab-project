@@ -1,0 +1,1 @@
+select * from {{source("edtech_source","courses")}}
