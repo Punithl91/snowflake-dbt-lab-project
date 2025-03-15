@@ -26,8 +26,7 @@ with students as (
             c.CREDITS,
             c.COUSE_LEVEL,
             c.COURSE_STATUS,
-            c.COURSE_DURATION_DAYS,
-            e.ENROLLMENT_DATE
+            c.COURSE_DURATION_DAYS
     from 
     students s
     left join enrollments e on s.student_id=e.student_id 
